@@ -1,0 +1,261 @@
+.cart {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.cart_title {
+  font-size: 38px;
+  color: #9f6233;
+  margin: 70px 0;
+  padding: var(--main-padding);
+  font-weight: 700;
+}
+
+.cart_wrapper {
+  display: flex;
+  padding: var(--main-padding);
+}
+
+.cart_container {
+  width: 55%;
+  height: 70vh;
+  overflow: auto;
+  padding-right: 10px;
+}
+
+.cart_container_item {
+  border: 1px solid #9a9a9a;
+  border-left: none;
+  border-right: none;
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 206px;
+}
+
+.cart_container_item img {
+  width: 221px;
+  height: 150px;
+  object-fit: contain;
+}
+
+.cart_container_item .name {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19.6296px;
+  width: 25%;
+}
+
+.cart_container_item .addQty {
+  width: 150px;
+  height: 46px;
+  border-radius: 8px;
+  background-color: #dcbb45;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 19px;
+}
+
+.cart_container_item .addQty svg {
+  border-radius: 50%;
+  border: 1px solid #000;
+  background-color: transparent;
+  font-size: 22px;
+  padding: 1px;
+  cursor: pointer;
+}
+
+.cart_container_item .addQty span {
+  font-size: 22px;
+}
+
+.cart_container .cart_container_item .price {
+  font-weight: 700;
+  font-size: 23.8058px;
+  color: #c9a95c;
+}
+
+.cart_container .cart_container_item .deleteBtn {
+  color: #a4a4a4;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+/*  Total info */
+
+.cart_total_info {
+  width: 582px;
+  height: 562px;
+  background-color: #fff;
+  box-shadow: 0px 8px 34px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  margin-left: 125px;
+  padding: 40px;
+}
+
+.cart_total_info img {
+  text-align: center;
+  margin: 46px auto;
+  display: block;
+}
+
+.total_info_price,
+.skidka {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 19px;
+  margin-bottom: 30px;
+}
+
+.cart_total_info .totalPrice {
+  height: 119px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid #d2d2d2;
+  margin-top: 74px;
+  font-size: 22px;
+}
+
+.cart_total_info .totalPrice p:last-child {
+  color: #c9a95c;
+}
+
+.cart_total_info .confirmBtn {
+  background: #dcbb45;
+  border-radius: 8px;
+  border: none;
+  padding: 10px 40px;
+  font-size: 21px;
+  margin: 0 auto;
+  display: block;
+  cursor: pointer;
+}
+
+/* CONFIRMATION */
+
+.confimation {
+  width: 800px;
+  min-height: 530px;
+  background-color: #fff;
+  box-shadow: 0px 20px 50px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  margin: 120px auto;
+  padding: 60px 100px 40px;
+}
+
+.product_Qty {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 23px;
+}
+
+.product_Qty span {
+  color: #7c7c7c;
+  font-size: 24px;
+}
+.product_Qty span:last-child {
+  color: #9f6233;
+}
+
+.cartType {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 45px;
+}
+
+.cartType div {
+  width: 300px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 2px solid #dcbb45;
+  border-radius: 8px;
+  padding: 0 10px;
+}
+
+.cartType div svg {
+  font-size: 25px;
+  color: #7c7c7c;
+}
+
+.cartType div input {
+  width: 87%;
+  font-size: 22px;
+  border: none;
+  outline: none;
+}
+
+.cartType img {
+  width: 122px;
+  height: 60px;
+  border: 2px solid #dcbb45;
+  border-radius: 8px;
+}
+
+.cart_information {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.cardNumber {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.cardNumber p {
+  color: #d2d2d2;
+  font-size: 20px;
+}
+
+.cardNumber input {
+  width: 300px;
+  height: 60px;
+  border: 2px solid #dcbb45;
+  border-radius: 8px;
+  text-indent: 20px;
+  color: #000;
+  font-size: 22px;
+  outline: none;
+  margin-top: 5px;
+}
+
+.cardNumber:nth-child(2) input,
+.cardNumber:nth-child(3) input {
+  width: 119px;
+  text-align: center;
+  text-indent: 0;
+}
+
+.tasdiqlash{
+  margin: 80px auto 0;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tasdiqlash button {
+  padding: 10px;
+  width: 143px;
+  height: 46px;
+  background: #dcbb45;
+  border-radius: 8px;
+  margin:0 12px;
+  font-size: 21px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  border:none;
+  cursor: pointer;
+}
+.tasdiqlash button svg{
+  margin-right: 5px;
+}

@@ -1,0 +1,117 @@
+.profil {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.myProfil {
+  width: 915px;
+  margin: 116px auto 0;
+}
+
+.profilAvatar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 70px;
+}
+
+.profilAvatar img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  text-align: center;
+}
+
+.profilAvatar label {
+  font-size: 21px;
+  background-color: #dcbb45;
+  margin-top: 20px;
+  overflow: hidden;
+  display: grid;
+  place-items: center;
+  padding: 7px 30px;
+  border-radius: 8px;
+}
+
+.profilAvatar label input {
+  display: none;
+}
+
+.myProfil .myProfil_info .user_name {
+  border: none;
+  background: #ffffff;
+  box-shadow: 0px 7px 20px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+}
+
+.myProfil .myProfil_info .user_name input {
+  text-align-last: left;
+  text-indent: 15px;
+}
+
+.myProfil .myProfil_info button {
+  font-size: 21px;
+  background-color: #dcbb45;
+  margin: 50px auto 0;
+  overflow: hidden;
+  display: grid;
+  place-items: center;
+  padding: 7px 30px;
+  border-radius: 8px;
+  border: none;
+}
+
+.user_buy_products {
+  width: 100%;
+  margin: 100px 0;
+}
+
+.user_buy_products h1 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 31px;
+  text-align: center;
+  color: #9f6233;
+  margin-bottom: 38px;
+}
+
+.user_buy_products .buy_products_item{
+  width: 100%;
+  height: 206px;
+  border: 1px solid #9a9a9a;
+  border-left: none;
+  border-right: none;
+  display: flex;
+  align-items: center;
+}
+
+.user_buy_products .buy_products_item img{
+  width: 221px;
+  height: 150px;
+  object-fit: contain;
+  border-radius:8px;
+  margin-right: 12px;
+}
+
+.user_buy_products .buy_products_item div{
+  font-size: 20px;
+  width: 25%;
+  line-height: 1.5;
+}
+
+.user_buy_products .buy_products_item div span{
+  font-size: 18px;
+  color:#9a9a9a;
+}
+
+
+
+
+.user_buy_products .buy_products_item b{
+  font-size: 24px;
+  color:#C9A95C;
+}
+
+

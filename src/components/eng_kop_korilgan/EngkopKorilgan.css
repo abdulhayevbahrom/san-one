@@ -1,0 +1,114 @@
+.engKop {
+  width: 100%;
+  height: 100vh;
+  background: url(../../assets/eng.png);
+  background-color: #f5f5f5;
+  background-repeat: no-repeat;
+  background-position-x: -380px;
+  background-position-y: center;
+
+  background-size: 70%;
+  padding: 40px;
+}
+
+.engKop_caption {
+  text-align: center;
+}
+
+.engKop_caption h1 {
+  color: var(--caption-color);
+  font-size: 50px;
+}
+
+.engKop_caption p {
+  font-size: 18px;
+  color: var(--title-color);
+}
+
+.engKop_container {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.engKop_container_img {
+  width: 682px;
+  height: 779px;
+  background-color: #fff;
+  border-radius: var(--card-border-radius);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+.engKop_container_img img {
+  width: 100%;
+  /* height: 100%; */
+}
+
+.engKop_container_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 50px 20px;
+}
+
+.engKop_container_info h1 {
+  color: var(--title-color);
+  font-size: 34px;
+}
+
+.engKop_container_info p {
+  color: var(--title-color);
+  font-size: 18px;
+  margin-top: 7px;
+}
+
+.engKop_container_info_imgs {
+  display: flex;
+  margin: 70px 0 50px 0;
+}
+
+.engKop_container_info_imgs img {
+  width: 410px;
+  height: 328px;
+  margin: 0 13px;
+}
+
+.engKop_container_info_buy a {
+  border-radius: var(--card-border-radius);
+  background-color: var(--border-color);
+  color: #000;
+  padding: 7px 18px;
+  border: none;
+  font-size: 21px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 40px;
+  text-decoration: none;
+}
+
+.engKop_container_pagination {
+  display: flex;
+  align-items: center;
+  padding: 0 30px;
+}
+
+.engKop_container_pagination .paginBtn {
+  border: 1px solid #de821d;
+  background: #de821d;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 30px;
+  margin: 0 10px;
+}
+
+.engKop_container_pagination .circle {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #c4c4c4;
+  margin: 0 7px;
+}

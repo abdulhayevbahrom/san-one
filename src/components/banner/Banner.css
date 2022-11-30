@@ -1,0 +1,113 @@
+.banner {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../../assets/bg_vector.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-color: #de821d;
+  position: relative;
+  overflow: hidden;
+}
+
+.bg_text {
+  font-weight: 800;
+  font-size: 190px;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.1);
+  position: absolute;
+  left: -50px;
+  top: 333px;
+}
+
+.bg_text_bottom {
+  font-weight: 800;
+  font-size: 150px;
+  line-height: 150px;
+  text-transform: uppercase;
+  position: absolute;
+  left: -200px;
+  bottom: 132px;
+  color: rgba(255, 255, 255, 0.248);
+}
+
+.bg_vector {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.banner_wrapper {
+  display: flex;
+  padding: var(--main-padding);
+  margin-top: 340px;
+  background-image: url(../../assets/banner_krasovka_cut.png);
+  background-position-x: 70%;
+  background-position-y: -100%;
+  background-size: contain 110%;
+  background-repeat: no-repeat;
+  height: 60%;
+}
+
+.banner_wrapper_text {
+  width: 50%;
+  /* margin-top: 320px; */
+}
+
+.banner_wrapper_text h1 {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 1.2;
+  color: #f3f3f3;
+}
+
+.banner_wrapper_text h1 span {
+  color: #dcbb45;
+}
+
+.banner_wrapper_img {
+  z-index: 1;
+  overflow: hidden;
+}
+
+.banner_wrapper_img img {
+  position: absolute;
+  top: 280px;
+  right: 300px;
+  z-index: -1;
+  display: none;
+}
+
+.banner_wrapper_text p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #d2d2d2;
+  width: 60%;
+  margin: 30px 0 41px 0;
+}
+
+.banner_btn {
+  font-size: 21px;
+  font-weight: 400;
+  padding: 10px 25px;
+  background-color: #fff;
+  border-radius: var(--card-border-radius);
+  text-decoration: none;
+  color: #de821d;
+}
+
+.banner_btn:last-child {
+  color: var(--color-white);
+  background-color: transparent;
+  border: 1px solid var(--color-white);
+  margin-left: 17px;
+  display: flex;
+  align-items: center;
+  display: inline-flex;
+}
+
+.banner_btn:last-child svg {
+  font-size: 25px;
+}

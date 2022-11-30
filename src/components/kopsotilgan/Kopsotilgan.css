@@ -1,0 +1,115 @@
+.kopsotilgan {
+  width: 100%;
+  height: 70vh;
+  background-color: #f5f5f5;
+  padding: 40px;
+  position: relative;
+}
+
+.kopsotilgan_caption h1 {
+  color: var(--caption-color);
+  font-size: 50px;
+}
+
+.kopsotilgan_caption p {
+  font-size: 18px;
+  color: var(--title-color);
+}
+
+.kopsotilgan_container {
+  display: grid;
+  grid-template-columns: repeat(4, 2fr);
+  padding: 40px 0;
+}
+
+.kopsotilgan_container .container_item {
+  width: 440px;
+  height: 483px;
+  background-color: var(--color-white);
+  box-shadow: var(--card-boxshadow);
+  border-radius: var(--card-border-radius);
+  margin: 0 25px 25px 0;
+  text-decoration: none;
+}
+
+.kopsotilgan_container .container_item img {
+  width: 407px;
+  height: 265px;
+  object-fit: contain;
+  margin: 15px 18px;
+}
+
+.kopsotilgan_container .container_item .name {
+  color: var(--title-color);
+  font-size: 31px;
+  border-bottom: 1px solid #d3d3d3;
+  margin: 0 18px 0 29px;
+}
+
+.kopsotilgan_container .container_item .price {
+  font-weight: 700;
+  font-size: 31.1px;
+  line-height: 38px;
+  color: #c9a95c;
+  margin: 7px 18px 0 29px;
+}
+
+.kopsotilgan_container .container_item strike {
+  color: #ff3f3f;
+  font-size: 18px;
+  margin: 7px 18px 0 29px;
+}
+
+.kopsotilgan .container_item_buy {
+  display: flex;
+  margin: 20px 18px 0 29px;
+  justify-content: space-between;
+}
+
+.container_item_buy button {
+  border-radius: var(--card-border-radius);
+  background-color: var(--border-color);
+  color: #000;
+  padding: 7px 18px;
+  border: none;
+  font-size: 21px;
+  cursor: pointer;
+}
+
+.container_item_buy .toCart {
+  background-color: #fff;
+  border: 1px solid var(--border-color);
+  margin-left: 15px;
+}
+
+.container_item_buy svg {
+  width: 40px;
+  height: 40px;
+  border: 2px solid #c9a95c;
+  color: #c9a95c;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.kopsotilgan_pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 40px;
+  left: 44%;
+}
+
+.kopsotilgan_pagination svg {
+  color: #c4c4c4;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.kopsotilgan_pagination .circle {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #c4c4c4;
+  margin: 0 15px;
+}
